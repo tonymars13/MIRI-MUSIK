@@ -1,0 +1,384 @@
+@media only screen and (min-device-width : 360px)
+ and (max-device-width : 640px)  {
+    body {
+        background-color:silver;
+    }
+
+
+    a{
+	text-decoration:none;
+	font-size:16px;
+}
+
+
+/*esse sao as entradas de texto*/
+*{
+	padding:0;
+	margin:0;
+}
+
+/*essas sao os templates ou topo*/
+.topo{
+    position:relative;
+	width:100%;
+	height:13em;
+	background: black;
+	border:0px solid black;
+	border-bottom:6px solid #C71585;
+
+
+}
+
+.nomesite{
+    color:silver;
+    font-size: 28px;
+    margin-left:4em;
+    font-family: initial;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pesquisar do template com animacao*/
+
+
+.pesquisar{
+    width:9em;
+    height:2em;
+    margin-left:36em;
+    margin-top:1em;
+    border:0px solid silver;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+.pesquisar:focus {
+    width:16%;
+}
+
+
+
+/*esses sao os link do template*/
+
+.navlinks{
+    margin-left:1em;
+
+}
+
+.link,.news{
+	display: block;
+	text-align: center;
+}
+
+
+.news{
+text-decoration:none;
+font-size:25px;
+color:silver;
+
+}
+
+
+.news:hover{
+	text-decoration:none;
+	color:#C71585;
+}
+
+.link{
+	text-decoration:none;
+	font-size:20px;
+	color:#C71585;	
+    margin-left: 1em;
+
+}
+
+
+.link:hover{
+	text-decoration:none;
+	color:silver;
+}
+
+
+
+
+
+
+
+
+
+
+/*essa e a galerya de imagem*/
+
+
+div.galeria img {
+    width: 100%;
+    height:20em;
+}
+
+div.galeria{
+    margin-left:3em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    float: left;
+    width:54em;
+}
+
+div.galeria:hover {
+    opacity: 0.5;
+    width:15e;
+    height:14e;
+    border: 0px solid ;
+}
+
+.plegenda{
+    text-decoration: none;
+    color:#C71585;
+    font-size:20px;
+
+}
+
+
+
+div.legenda {
+    padding:19px;
+    text-align:center;
+    background: rgba(0,0,0,0.2);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div notiaci*/
+
+.noticia{
+    width:54em;
+    margin-top:26em;
+   
+    margin-left:3em;
+    position: absolute;
+    border:0px solid black;
+    border-top: 2px solid #C71585;
+
+}
+
+div.fotonoticia {
+    margin-top: 2em;
+    margin: 5px;
+    border:1px solid #C71585;
+    float: left;
+    width:7em;
+}
+
+div.fotnoticia:hover {
+    opacity: 0.6;
+    border: 1px solid #C71545;
+}
+
+div.fotonoticia img {
+    width: 100%;
+    height:7em;
+}
+
+.pnoticia{
+    text-decoration: none;
+    color:#C71585;
+    font-size:1em;
+
+}
+
+.bnoticia{
+    text-decoration: none;
+    text-shadow: 1px 6px 9px;
+    font-size:16px;
+    color: white;
+    background:#C71585;
+
+}
+
+div.legendanoticia {
+    background: transparent;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+ /*posicionando*/
+
+/*div famosos*/
+.famosos{
+    width:54em;
+  
+    margin-top:43em;
+    margin-left:3em;
+    border:0px solid black;
+    border-top: 2px solid #C71585;
+
+}
+
+div.fotofamosos {
+    margin-top: 2em;
+    margin: 5px;
+    border:1px solid #C71585;
+    float: left;
+    width:7em;
+}
+
+div.fotofamosos:hover {
+    opacity: 0.6;
+    border: 1px solid #C71545;
+}
+
+div.fotofamosos img {
+    width: 100%;
+    height:7em;
+}
+
+.pfamosos{
+    text-decoration: none;
+    color:#C71585;
+    font-size:1em;
+
+}
+
+.bfamosos{
+    text-decoration: none;
+    text-shadow: 1px 6px 9px;
+    font-size:16px;
+    color: white;
+    background:#C71585;
+
+}
+
+div.legendafamosos {
+    background: transparent;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*esse o div musica */
+.bmusica{
+    text-decoration: none;
+    text-shadow: 1px 6px 9px;
+    font-size:16px;
+    color: white;
+    background:#C71585;
+
+}
+
+div.musica{
+    position: absolute;
+   width:54em;
+  
+   height:12em;
+   margin-left: 3em;
+    margin-top:15em;
+    border:0px solid black;
+    border-top: 2px solid #C71585;
+
+}
+
+.audio{
+    margin-top: 1em;
+    margin-right:7em;
+    width: 7em;
+
+}
+.audio,.titlomusica{
+    display: inline;
+}
+
+.titlomusica{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: ;
+
+    color:white;
+    text-decoration: none;
+}
+
+.downloadmusica{
+color:#C71585;
+margin-left:1em;
+}
+
+
+
+.reprodutor{
+    width:16em;
+    height:5em;
+    margin-top: 1em;
+    margin-left: ;
+    background:black;
+    border: 0px solid black;
+    border-radius:4px;
+    text-align: center;
+
+
+
+}
+}
